@@ -1,0 +1,114 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: sans-serif;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #203E48;
+    color: white;
+}
+.main{
+    border-radius: 20px;
+    height: 420px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #048DD6;
+    
+}
+.inputbox{
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.inputbox>input{
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.inputbox>button{
+    padding: 10px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagebox{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagebox>img{
+    width: 160px;
+}
+.main>h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.main .infobox{
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.humiditybox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+.windspeed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+.humiditybox>img{
+    width: 35px;
+  
+
+}
+.windspeed>img{
+    width: 35px;
+    
+
+}
+
+.button>button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: linear-gradient(360deg,#048DD6,white);
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.button>button:active{
+    background: linear-gradient(180deg,#048DD6,white);
+}
